@@ -13,7 +13,7 @@ import TemplateSidemenu from 'components/Menu/Sidemenu'
 import * as animationData from 'assets/lottie/rocket-launch-space-explore.json'
 import 'react-toastify/dist/ReactToastify.css';
 
-const OrderMngmt =  lazy(() => import( './OrderMngmt' ))
+// const OrderMngmt =  lazy(() => import( './OrderMngmt' ))
 const UsersMngmt =  lazy(() => import( './UserMngmt' ))
 
 const SuspenseWrapper = ({ children }) => (
@@ -36,7 +36,7 @@ class Dashboard extends Component {
               userRole={ this.props.userRole } />
             <div className="app-main__outer">
               <div className="app-main__inner">
-                <SuspenseWrapper>
+                {/* <SuspenseWrapper>
                   <Route 
                     path={ `/dashboard/order` } 
                     render={ props => (
@@ -44,7 +44,7 @@ class Dashboard extends Component {
                         { ...props }
                       />
                       )} />
-                </SuspenseWrapper>
+                </SuspenseWrapper> */}
                 <SuspenseWrapper>
                   <Route 
                     path={ `/dashboard/user` } 
