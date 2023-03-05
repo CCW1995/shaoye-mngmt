@@ -1,0 +1,28 @@
+// Page action bar
+
+.page-action-bar {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  gap: 45px;
+  margin-bottom: 15px;
+
+  .page-search-form {
+    flex: 1;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    min-width: 310px;
+    
+    .card-body {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  .page-action-buttons {
+    display: flex;
+    padding-top: 0.5rem;
+    width: fit-content;
+    justify-content: end;
+    align-self: start;
+    margin-left: auto;
+  }
+}

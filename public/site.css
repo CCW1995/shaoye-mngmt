@@ -1,0 +1,429 @@
+@font-face {
+  font-family: 'Alegreya';
+  src: url('./fonts/alegreya/alegreya-v10-latin-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('./fonts/alegreya/alegreya-v10-latin-italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('./fonts/alegreya/alegreya-v10-latin-700.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('./fonts/alegreya/alegreya-v10-latin-700italic.ttf');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('./fonts/alegreya/alegreya-v10-latin-900.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('./fonts/alegreya/alegreya-v10-latin-900italic.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-300.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-300italic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-500.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-500italic.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-700.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('./fonts/BarlowSemiCondensed/barlow-semi-condensed-v4-latin-700italic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat/montserrat-v12-latin-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat/montserrat-v12-latin-700.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Neutra Text';
+  src: url('./fonts/neutratext/neutratext-book-alt.ttf');
+}
+
+@font-face {
+  font-family: 'Neutra Text';
+  src: url('./fonts/neutratext/neutratext-bold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Neutra Text';
+  src: url('./fonts/neutratext/neutratext-demi-alt.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Neutra Text';
+  src: url('./fonts/neutratext/neutratext-disp-titling.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Neutra Text';
+  src: url('./fonts/neutratext/neutratext-tf-bold-alt.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('./fonts/Playfair/playfair-display-v13-latin-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('./fonts/Playfair/playfair-display-v13-latin-italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('./fonts/Playfair/playfair-display-v13-latin-700.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('./fonts/Playfair/playfair-display-v13-latin-700italic.ttf');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('./fonts/Playfair/playfair-display-v13-latin-900.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Playfair';
+  src: url('./fonts/Playfair/playfair-display-v13-latin-900italic.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-regular.ttf');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-200.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-200italic.ttf');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-300.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-300italic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-600.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-600italic.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-700.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-700italic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-900.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro/source-sans-pro-v11-latin-900italic.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/Dosis-ExtraLight.ttf');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/Dosis-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/Dosis-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/Dosis-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/Dosis-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/Dosis-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('./fonts/Dosis/Dosis-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-BlackItalic.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-BoldItalic.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Italic.ttf');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-MediumItalic.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-ThinItalic.ttf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Abel';
+  src: url('./fonts/Abel/Abel-Pro.otf');
+}
+
+@font-face {
+  font-family: 'Abel';
+  src: url('./fonts/Abel/Abel-Pro-Bold.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Miso';
+  src: url('./fonts/Miso/miso-bold.woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Miso';
+  src: url('./fonts/Miso/miso.woff');
+}
+
+@font-face {
+  font-family: 'Miso';
+  src: url('./fonts/Miso/miso-light.woff');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/open-sans-v15-latin-300.woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/open-sans-v15-latin-600.woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/open-sans-v15-latin-600italic.woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/open-sans-v15-latin-700.woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/open-sans-v15-latin-700italic.woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/open-sans-v15-latin-italic.woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans/open-sans-v15-latin-regular.woff');
+}

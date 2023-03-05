@@ -1,31 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-import Axios from 'axios'
+import { HashRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { persistStore } from 'redux-persist';
+import { PersistGate } from 'redux-persist/integration/react';
+import { toast } from 'react-toastify';
 
-function App() {
+import SHAOYEROUTER from './router'
+import configureStore from 'store/config'
+import AxiosInterceptors from 'utils/axios-interceptors'
 
-  const onCallApiTest = () => {
-    Axios.get( `https://ynjsiv6xp2.execute-api.us-east-1.amazonaws.com/dev/users/test` ).fetch( res => {
-      console.log( res )
-    }).catch( )
-  }
+import './stylesheets/base.scss'
+
+const store = configureStore();
+const persistor = persistStore( store );
+toast.configure()
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={ store }>
+      <PersistGate loading={ null } persistor={ persistor }>
+        <HashRouter>
+          <SHAOYEROUTER/>
+        </HashRouter>
+      </PersistGate>
+    </Provider>
   );
 }
 
