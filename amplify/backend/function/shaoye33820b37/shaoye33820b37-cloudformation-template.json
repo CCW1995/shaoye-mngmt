@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "amplifyprojshaoyeb2de5d4d",
+            "shaoye33820b37",
             {
               "Fn::Join": [
                 "",
                 [
-                  "amplifyprojshaoyeb2de5d4d",
+                  "shaoye33820b37",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "amplifyprojshaoyeLambdaRole0dfdd192",
+            "shaoyeLambdaRole07a8c437",
             {
               "Fn::Join": [
                 "",
                 [
-                  "amplifyprojshaoyeLambdaRole0dfdd192",
+                  "shaoyeLambdaRole07a8c437",
                   "-",
                   {
                     "Ref": "env"

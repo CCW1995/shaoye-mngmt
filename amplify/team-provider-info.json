@@ -1,31 +1,44 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplifyprojshaoye-dev-165528-authRole",
-      "UnauthRoleArn": "arn:aws:iam::598873709975:role/amplify-amplifyprojshaoye-dev-165528-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::598873709975:role/amplify-amplifyprojshaoye-dev-165528-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-amplifyprojshaoye-dev-165528-deployment",
-      "UnauthRoleName": "amplify-amplifyprojshaoye-dev-165528-unauthRole",
-      "StackName": "amplify-amplifyprojshaoye-dev-165528",
-      "StackId": "arn:aws:cloudformation:us-east-1:598873709975:stack/amplify-amplifyprojshaoye-dev-165528/7d104d60-bb33-11ed-93a1-12fc5e48ea73",
-      "AmplifyAppId": "d2ipn84qc96jym"
+      "AuthRoleName": "amplify-shaoye-dev-105752-authRole",
+      "UnauthRoleArn": "arn:aws:iam::598873709975:role/amplify-shaoye-dev-105752-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::598873709975:role/amplify-shaoye-dev-105752-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-shaoye-dev-105752-deployment",
+      "UnauthRoleName": "amplify-shaoye-dev-105752-unauthRole",
+      "StackName": "amplify-shaoye-dev-105752",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:598873709975:stack/amplify-shaoye-dev-105752/b0b763f0-bbca-11ed-b03d-06d3ac2a8d78",
+      "AmplifyAppId": "dosobhy1yydwi"
+    }
+  },
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shaoye-master-110259-authRole",
+      "UnauthRoleArn": "arn:aws:iam::598873709975:role/amplify-shaoye-master-110259-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::598873709975:role/amplify-shaoye-master-110259-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-shaoye-master-110259-deployment",
+      "UnauthRoleName": "amplify-shaoye-master-110259-unauthRole",
+      "StackName": "amplify-shaoye-master-110259",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:598873709975:stack/amplify-shaoye-master-110259/6761eee0-bbcb-11ed-86e4-0ab7678042a0",
+      "AmplifyAppId": "dosobhy1yydwi"
     },
     "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dosobhy1yydwi",
+          "type": "cicd"
+        }
+      },
       "function": {
-        "amplifyprojshaoyeb2de5d4d": {
-          "deploymentBucketName": "amplify-amplifyprojshaoye-dev-165528-deployment",
-          "s3Key": "amplify-builds/amplifyprojshaoyeb2de5d4d-7636694f325a76612f45-build.zip"
+        "shaoye33820b37": {
+          "deploymentBucketName": "amplify-shaoye-master-110259-deployment",
+          "s3Key": "amplify-builds/shaoye33820b37-7355666b364836357441-build.zip"
         }
       },
       "api": {
-        "api3262b99c": {}
-      },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d2ipn84qc96jym",
-          "type": "manual"
-        }
+        "apid8bf36c0": {}
       }
     }
   }

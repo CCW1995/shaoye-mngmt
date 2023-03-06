@@ -1,6 +1,6 @@
 {
   "api": {
-    "api3262b99c": {
+    "apid8bf36c0": {
       "dependsOn": [
         {
           "attributes": [
@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "amplifyprojshaoyeb2de5d4d"
+          "resourceName": "shaoye33820b37"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -16,7 +16,7 @@
     }
   },
   "function": {
-    "amplifyprojshaoyeb2de5d4d": {
+    "shaoye33820b37": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
@@ -24,25 +24,25 @@
   },
   "hosting": {
     "amplifyhosting": {
-      "providerPlugin": "awscloudformation",
+      "lastPushTimeStamp": "2023-03-06T03:07:05.553Z",
       "service": "amplifyhosting",
-      "type": "manual"
+      "type": "cicd"
     }
   },
   "parameters": {
-    "AMPLIFY_function_amplifyprojshaoyeb2de5d4d_deploymentBucketName": {
+    "AMPLIFY_function_shaoye33820b37_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "amplifyprojshaoyeb2de5d4d"
+          "resourceName": "shaoye33820b37"
         }
       ]
     },
-    "AMPLIFY_function_amplifyprojshaoyeb2de5d4d_s3Key": {
+    "AMPLIFY_function_shaoye33820b37_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "amplifyprojshaoyeb2de5d4d"
+          "resourceName": "shaoye33820b37"
         }
       ]
     },
